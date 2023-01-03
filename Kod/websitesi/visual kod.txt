@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Sade</title>
+  <link rel="stylesheet" href=bbbbb.css>
+
+</head>
+
+<body style="display: flex; flex-direction:column; width:100%;">
+  <div style="height: 77px; background: white; display:flex; justify-content:space-between; flex-direction:row; padding: 0 27px;">
+    <div class="navbar-header" id = "aaaa" style="height: 46px; margin-top:18px; margin-bottom:13px;">
+        <a href="index.html"><img id="img" src="görseller/logo.jpeg" alt="logo" style="height: 46px; max-height:46px" /></a>
+    </div>
+    <div style="display:flex; align-items:center; margin-right:16px">
+        <div class="input-group">
+            <span style="border:none; box-shadow:none; background:white;" class="input-group-addon" id="sizing-addon2">
+            <span class="glyphicon glyphicon-search" ></span>
+            </span>
+            <input style="border: none; box-shadow:none; border-bottom: 1px solid black; border-radius:0;" type="text" class="form-control" placeholder="Search" aria-describedby="sizing-addon2">
+        </div>
+        <ul class="nav navbar-nav navbar-right" id = "navigationbar" >
+            <li><a href="#" style="color:black ;"><span class="glyphicon glyphicon-shopping-cart"></span> </a></li>
+            <li><a href="#" style="color:black;"><span class="glyphicon glyphicon-heart"></span>
+            <li><a href="#" style="color:black;"><span class="glyphicon glyphicon-user" ></span> </a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div style="width:100%; height:530px; background: url('./görseller/arkaplan.jpg');">
+  <div  id="accordion" role="tablist" style="margin-left:54px; margin-top:86px; font-family: 'Playfair Display';font-style: normal;font-weight: 500;font-size: 27px;line-height: 143.3%;color: black;">
+      <li style="margin-top: 16px; display:flex; justify-content:flex-start; align-items:center; flex-direction:column;">
+        <div role="tab" id="headingOne" style="display: flex; flex-direction:row; justify-content:space-between; width:35%; align-self: baseline;">
+          <a style="color:white;" href="/home">NEW</a>     
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"  aria-controls="collapseOne">
+
+          </a>
+      </div>
+        
+          <div role="tab" id="headingOne" style="display: flex; flex-direction:row; justify-content:space-between; width:35%; align-self: baseline;">
+              <a style="color:red;" href="/home">SALE UP TO 50% OFF</a>     
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"  aria-controls="collapseOne">
+              <span style="color:white;"><span class="glyphicon glyphicon-menu-up"></span>
+
+              </a>
+          </div>
+          <div style="width:100%; margin-left:48px" id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div style="display:flex; flex-direction:column; justify-content:flex-start">
+                <a style="font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                margin-top: 8px;
+                line-height: 86.3%;color:white;" href="/contact">Summer Season Clothes</a>
+              </div>
+          </div>
+      </li>
+      
+      <div role="tab" id="headingTwo" style="display: flex; flex-direction:row; justify-content:space-between; width:35%; align-self: baseline;">
+        <a style="color:white;" href="/home">CLOTHES</a> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"  aria-controls="collapseTwo">
+        <span style="color:white;" class="glyphicon glyphicon-menu-up"></span>     
+    </div>
+    <div style="width:100%; margin-left:48px" id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+        <div style="display:flex; flex-direction:column; justify-content:flex-start">
+          <a style="font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          margin-top: 8px;
+          line-height: 86.3%;color:white;" href="/contact">Sweatshirt</a>
+        </div>
+    </div>
+    </li>
+
+    <div role="tab" id="headingThree" style="display: flex; flex-direction:row; justify-content:space-between; width:35%; align-self: baseline;">
+            <a style="color:white;" href="/home">SHOES</a> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"  aria-controls="collapseThree">
+            <span style="color:white;" class="glyphicon glyphicon-menu-up"></span>     
+        </div>
+        <div style="width:100%; margin-left:48px" id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+            <div style="display:flex; flex-direction:column; justify-content:flex-start">
+              <a style="font-family: 'Playfair Display';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              margin-top: 8px;
+              line-height: 86.3%;color:white;" href="/contact">Boots</a>
+          </div>
+    </div>
+    </li>
+
+    <div role="tab" id="headingFour" style="display: flex; flex-direction:row; justify-content:space-between; width:35%; align-self: baseline;">
+        <a style="color:white;" href="/home">ACCESSORIES</a> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"  aria-controls="collapseFour">
+        <span style="color:white;" class="glyphicon glyphicon-menu-up"></span>     
+    </div>
+    <div style="width:100%; margin-left:48px" id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+        <div style="display:flex; flex-direction:column; justify-content:flex-start">
+          <a style="font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          margin-top: 8px;
+          line-height: 86.3%;color:white;" href="/contact">Necklace</a>
+      </div>
+    </div>
+    </li>
+    <div role="tab" id="headingFive" style="display: flex; flex-direction:row; justify-content:space-between; width:35%; align-self: baseline;">
+    <a style="color:white;" href="/home">#SADEgirls</a> 
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<section> <!--İçeriği oluşturduk-->
+  
+  <p style="color:black; text-align:center; font-size:50px">Discover!</p>
+  <p style="color:black; text-align:center; font-size:20px">There's a unique gift for each different style, and we help you find it with this specially curated selection for your loved ones. Take a look!</p>
+
+  </section>
+    
+    <div class="sliderBack">
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        
+        <div class="mySlides">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <img src="görseller/discover1.PNG" style="width:22%">
+          <img src="görseller/discover2.PNG" style="width:22%">
+          <img src="görseller/discover3.PNG" style="width:22%">
+          <img src="görseller/discover4.PNG" style="width:22%">
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+          <div class="aciklama">
+
+            <p style="word-spacing: 220px; display: flex; justify-content: center; align-items: center; padding-right: 60px;">New Teengirl Collection Special</p>
+            </div>
+        
+        </div>
+        
+      </div>
+      <br>
+      
+      
+    </div>
+       
+<script src="slider.js"></script>
+<br>
+
+<section> <!--İçeriği oluşturduk-->
+
+<div style="height: 750px; width: 100%; background:#560707; display:flex; flex-direction:row; padding: 0 50px;">
+<div  id="accordion" role="tablist" style="margin-left:60px; margin-top:86px; font-family: 'Playfair Display';font-style: normal;font-weight: 500;font-size: 27px;line-height: 143.3%;color: #FFFFFF;">
+<p style="color:white; text-align:center; font-size:50px">#SADEgirls</p>
+<p style="color:white; text-align:center; font-size:25px">How would you like to be a part of our #SADEgirls collections that will inspire you and inspire others?</p>
+
+<div class="container">
+</div>
+<div class ="text-center"><p><a href="index.html" class= "btn btn-common"><button style="background:#560707; border-color:white ; color:white;font-size:23px;">  Follow us on Instagram  ></button></a></p></div>
+  <br>
+
+  <div class="mySlides2">
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <img src="görseller/ilkfoto.jpg" style="width:22%">
+  <img src="görseller/eslem.jpg" style="width:24%">
+  <img src="görseller/öyküberk.jpg" style="width:22%">
+  <img src="görseller/buket.jpg" style="width:23%">
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <br>
+  <br>
+  <div class="container">
+    <div class ="text-center"><p><a href="index.html" class= "btn btn-common"><button style="background:#560707; border-color:white ; color:white;font-size:20px;"> Discover more</button></a></p></div>
+  </div>
+
+  </div>
+</div>
+</section>
+<br>
+<br>
+<p style="color:black; font-size:20px">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p style="color:black; text-align:center; font-size:50px">Get 10% off</p>
+<p style="color:black; text-align:center; font-size:20px">Subscribe to the newsletter and get 10% off your next shop, access to special offers and much more!</p>
+<br>
+<div style="display:flex; align-items:center; margin-right:16px">
+  <div class="input-group">
+      <span style="border:none; box-shadow:none; background:white;" class="input-group-addon" id="sizing-addon2">
+      </span>
+      <input style="border: 2px solid black; box-shadow: 8px solid black; border-bottom: 1px solid black; border-radius:0;" type="text" class="form-control" placeholder="Enter your email address" aria-describedby="sizing-addon2"></div>
+  </div>
+<br>
+
+<p style="color:black; font-size:20px">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<br>
+
+  <div style="height: 450px; width: 100%; background:#F5F5F5; display:flex; flex-direction:row; padding: 0 50px;">
+  
+  <table class="table table-hover">
+    
+    <thead>
+      <tr>
+        <th><a href="/home"> Can we help you? </a></th>
+        <th><a href="/home"> We are SADE </a> </th>
+        <th><a href="/home"> You might be interested in</a> </th>
+        <th><a href="/home"> Help</a></th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+            
+        <td><a href="/home">Start chat online</a> </td>
+        <td><a href="/home">About SADE</a></td>
+        <td><a href="/home">Coats</a></td>
+        <td><a href="/home">Shop online</a></td>
+      </tr>
+      <tr>
+        <td><a href="/home">+349240542</a></td>
+        <td><a href="/home">Join life</a></td>
+        <td><a href="/home">Jackets</a></td>
+        <td><a href="/home">Payment</a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td><a href="/home">Work with us</a></td>
+        <td><a href="/home">Suits</a></td>
+        <td><a href="/home">Gift card</a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td><a href="/home">Press</a></td>
+        <td><a href="/home">Tailoring</a></td>
+        <td><a href="/home">Receipt</a></td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td><a href="/home">Overshirt</a></td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td><a href="/home">Black Friday</a></td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<p style="color:black; text-align:center; font-size:10px">Terms and conditions of purchase • Privacy policy • Interest Based Advertising • Accessibility statement • California Privacy Rights • California Supply Chains Act • Cookie settings • SiteMap</p>
+<p style="color:black; text-align:center; font-size:8px">© 2022 SADE K.V.K.K. and Cookie Policy Privacy Policy</p>
+</body>
+</html>
